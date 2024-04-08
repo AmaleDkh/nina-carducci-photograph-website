@@ -1,13 +1,22 @@
 @media all and (max-width: 650px) {
-  .top-header {
+  .top-header .nav,
+  .top-header .nav ul,
+  form {
+    width: 100%;
+  }
+
+  .top-header,
+  .footer-nav-list {
     flex-direction: column;
+  }
+
+  .top-header {
     padding-inline: 0;
   }
 
   .top-header .nav,
   .top-header .nav ul {
-    width: 100%;
-    padding: 0 0 0 0;
+    padding: 0;
   }
 
   .top-header .nav li {
@@ -35,10 +44,6 @@
     padding-block: 2em;
   }
 
-  form {
-    width: 100%;
-  }
-
   .picture {
     width: 80%;
   }
@@ -49,8 +54,6 @@
   }
 
   .footer-nav-list {
-    flex-direction: column;
-    justify-content: center;
     gap: 30px;
     margin-bottom: 0;
   }

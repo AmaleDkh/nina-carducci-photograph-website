@@ -1,5 +1,7 @@
 @media all and (max-width: 1000px) {
-  #about {
+  #about,
+  #services .container,
+  #contact .container {
     flex-direction: column;
   }
 
@@ -22,10 +24,6 @@
     margin-top: 1em;
   }
 
-  #services .container {
-    flex-direction: column;
-  }
-
   .service {
     width: 100%;
     max-width: 100%;
@@ -44,10 +42,6 @@
     right: 0;
     left: auto;
     z-index: 0;
-  }
-
-  #contact .container {
-    flex-direction: column;
   }
 
   #contact .picture.right {
