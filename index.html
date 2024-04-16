@@ -103,14 +103,7 @@
 
     <!--SCRIPTS-->
     <script src="./assets/bootstrap/bootstrap.bundle.min.js" async></script>
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.min.js"
-      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-      crossorigin="anonymous"
-      async
-    ></script>
     <script src="./scripts/maugallery.min.js" async></script>
-    <script src="./scripts/scripts.min.js" async></script>
     <script
       rel="preconnect"
       src="https://kit.fontawesome.com/1b5d68cf6e.js"
@@ -436,6 +429,28 @@
               loading="lazy"
             />
           </div>
+          
+           <!--MODAL-->
+          <aside
+            class="modal fade show"
+            role="dialog"
+            aria-hidden="true"
+            tabindex="-1"
+          >
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <div class="modal-prev-image">
+                    <i class="fa-solid fa-angle-left"></i>
+                  </div>
+                  <div class="modal-image-container"></div>
+                  <div class="modal-next-image">
+                    <i class="fa-solid fa-angle-right"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </aside>
         </div>
 
         <div class="quote">
